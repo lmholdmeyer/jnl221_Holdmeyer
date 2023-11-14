@@ -10,15 +10,15 @@
         <style>
         
             p {
-                color: #A9A9A9
-;               font-size: 16px;
+                color: #A9A9A9;
+                font-size: 16px;
                 font-family: 'Open Sans', serif;
                 width: 50%;
             }
             #quote {
-                color: magenta;
+                color: darkgrey;
                 font-style: italic;
-                border: solid lightskyblue 2px;
+            
             }
 
             #bargraph {
@@ -37,20 +37,20 @@
                 border: 1px solid red;
             }
             #longer {
+                width: 200px;
                 height: 10px;
                 background: gray;
                 border: 1px solid red;
             }
-            #shortest {
+            #long {
+                width: 100px;
                 height: 10px;
                 background: gray;
                 border: 1px solid red;
             }
-            #quote {
-                color: gray;
-            }
-            #book {
-                Border: 1px hot pink;
+        
+            .book {
+                border: 3px solid lightpink;
             }
 
         </style>
@@ -68,9 +68,10 @@
         <!-- Tags to use: <p>, <strong>, <i> -->
         
 
-        <h2>My handles <p> <a> </h2>
-            X: @LaurenHoldmeyer
-            Instagram: @laurenholdmeyer 
+        <h2>My handles </h2>
+           <p>I am on <a href="https://www.linkedin.com/in/lauren-holdmeyer-10696b24a/>" target="_blank"> LinkedIn. </a></p>
+        <p>I am also on <a href=https://twitter.com/LaurenHoldmeyer target="_blank"> X. </a></p>
+         
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
         </a> </p>
@@ -78,13 +79,14 @@
     
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
         <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
-        <p>My text is maroon.</p>
+        <p>My text is grey.</p>
 
 
         <h2>My favorite meme</h2>
         <!-- Include: "large_wink.png" as an image --> 
         <!-- Tags to use: <img> -->
         <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src="sheep.png" alt="a sheep staring into the camera, internet meme" height="200px">
 
     
         <h2>Why I'm a great student <strong> </h2>
@@ -98,43 +100,43 @@
         <!-- Tags to use: <ul>, <li>, <strong> -->
         
     
-        <h2>Top 3 most famous people from my hometown <a> </h2>
+        <h2>Top 3 most famous people from my hometown </h2>
         <!-- Include: an ordered list -->
         <!-- Tags to use: <ol>, <li>, <a> -->
         <ol> 
-            <li> Don Cheadle </li>
+            <li> <a href="https://en.wikipedia.org/wiki/Don_Cheadle" target="_blank"> Don Cheadle</a></li>
             <li> Eddie Asner </li>
             <li> Aaron Rahsaan Thomas </li>
-        </ol></a>
+        </ol>
 
         <h2> ~ Challenge: Read my poetry ~</h2>
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <p> I am a sophomore in college, </p><br>
-       </br> <p> And I love Syracuse. </p><br>
-    </br> <p> I have a lot of fun here, </p><br>
-</br> <p> And I learn a lot, too. </p>
+        <p> And I love Syracuse. </p><br>
+        <p> I have a lot of fun here, </p><br>
+        <p> And I learn a lot, too. </p>
 
 
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags --> 
     
 
-        <h2>This is one of my favorite quotes <i></h2>
+        <h2>This is one of my favorite quotes </h2>
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag --> 
-           <p> “'Maybe I'm wrong,' Mom said. 'Maybe the world really is coming to an end.'
+           <p id="quote"> “'Maybe I'm wrong,' Mom said. 'Maybe the world really is coming to an end.'
             'Should I try Fox News?' I asked.
             Mom shuddered. 'We're not that desperate,' she said.”
-        </p></i> 
+        </p>
         <h3> - Life as we Knew It by Susan Pfeffer </h3>
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
 
 
-        <h2>These are more of my favorite books <book> </h2>
+        <h2>These are more of my favorite books </h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <ul>
-            <li> Everything Everything </li>
-            <li> The Great Gatsby </li>
-            <li> Looking for Alaska </li>
-        </ul></book>
+            <li class="book"> Everything Everything, Nicola Yoon</li>
+            <li class="book"> The Great Gatsby, F. Scott Fitzgerald</li>
+            <li class="book"> Looking for Alaska, John Green</li>
+        </ul>
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
         
 
