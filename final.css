@@ -17,13 +17,12 @@
 	}
 }
 p {
-	font-family: 'Times New Roman', serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 }
 h4 {
-	font-style: italic;
-	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-size: 30px;
+	font-family: serif;
 }
 h3 {
 	font-size: 30px;
@@ -33,12 +32,17 @@ img {
 	margin-right: 5%;
 	margin-left: 5%;
 }
+figcaption {
+	text-align: right;
+	color: grey;
+}
+
 img:hover {
 	opacity: 1.0;
 }
 
 
-/*Don't worry about this section yet*/
+/*Small screens secion*/
 @media only screen and (max-width: 767px)
 {
  .list {
@@ -52,3 +56,11 @@ img:hover {
  	min-width: 90%;
  	margin-right: 10px;
  }
+.footer p {
+	background-color: #102542;
+	color: white;
+}
+img {
+	float: unset;
+}
+}
